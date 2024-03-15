@@ -1,0 +1,9 @@
+stdin:
+    e_self_id: stdin
+    type:
+      fissures:
+        -
+          node: "虚空"
+          missionKey: "Interception" #Excavation-挖掘 Extermination-歼灭 Sabotage-破坏 Survival-生存 Mobile Defense-移动防御 Rescue-救援 Defense-防御 Spy-间谍 Disruption-中断 Interception-拦截
+          tierNum: 4 # 1-古纪 2-前纪  3-中纪 4-后纪
+    from: 2

@@ -1,0 +1,8 @@
+# 全局warframe推送任务状态，1 开启 0 关闭
+pushStatus: 1
+
+# Cron表达式，作用域共6位，具体方法浏览器搜索 “node-schedule cron表达式”
+pushTime: "0 5,35,51 * * * *"
+
+# 是否展示定时任务的日志，0 不显示 1 显示
+pushTaskLog: 1

@@ -1,7 +1,0 @@
-stdin:
-  e_self_id: stdin
-  type:
-    fissures:
-      - missionKey: "Extermination" #Excavation-挖掘 Extermination-歼灭 Sabotage-破坏 Survival-生存 Mobile Defense-移动防御 Rescue-救援 Defense-防御 Spy-间谍 Disruption-中断 Interception-拦截
-        isHard: true
-  from: 2

@@ -1,6 +1,6 @@
 import base from './base.js'
 import lodash from 'lodash'
-import fetch from "node-fetch";
+import fetch from 'node-fetch'
 
 const _headers = {
   authority: 'api.warframestat.us',
@@ -36,6 +36,15 @@ export default class Warframe extends base {
 
   async getInvasionInfo () {
     let url = 'https://api.warframestat.us/pc/invasions/?language=zh'
+    const response = await fetch(url, {
+      method: 'GET',
+      headers: lodash.merge(_headers)
+    })
+    return response
+  }
+
+  async getAlertsInfo () {
+    let url = 'https://api.warframestat.us/pc/alerts/?language=zh'
     const response = await fetch(url, {
       method: 'GET',
       headers: lodash.merge(_headers)
